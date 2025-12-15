@@ -99,7 +99,7 @@ function fillSecondForm(data) {
   if (phone && data.phone_number) setNativeValue(phone, data.phone_number);
   if (saveBtn) {
     setTimeout(() => {
-      saveBtn.click();
+     // saveBtn.click();
       console.log("Save button clicked ✅");
     }, 1000);
   }
